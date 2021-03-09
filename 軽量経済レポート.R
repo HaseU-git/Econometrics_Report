@@ -1,7 +1,7 @@
 # p値が0.05未満であれば優位になる
 
 
-dat <- read.csv("/Users/hasegawayuta/Library/Mobile Documents/com~apple~CloudDocs/大学/2年/春/計量経済学/レポート１/stock2018q.csv")
+dat <- read.csv("srcs/stock2018q.csv")
 dat
 
 attach(dat)
@@ -89,7 +89,7 @@ ans4
 
 
 # 問題1
-dat2 <- read.csv("/Users/hasegawayuta/Library/Mobile Documents/com~apple~CloudDocs/大学/2年/春/計量経済学/レポート１/house_source_lec.csv")
+dat2 <- read.csv("srcs/house_source_lec.csv")
 dat2
 
 attach(dat2)
@@ -178,7 +178,7 @@ anova(lm(RRent~dis+space+year),lm(RRent~dis+space+year+bus+bus*dis))
 # リサーチクエスチョンともいう
 # どんな問題に答えたくてそれをやったかを示すこと  
 # データ読み込み
-dat3 <- read.csv("/Users/hasegawayuta/Desktop/house_source_lec.csv")
+dat3 <- read.csv("srcs/house_source_lec.csv")
 # データの確認
 dat3
 # 下準備
